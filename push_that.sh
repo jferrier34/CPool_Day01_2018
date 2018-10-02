@@ -1,4 +1,4 @@
-#!/bin/sh
-blih -u julien.ferrier@epitech.eu repository create $1
-blih -u julien.ferrier@epitech.eu repository setacl $1 ramassage-tek r
-blih -u julien.ferrier@epitech.eu repository getacl $1
+#!/bin/bash
+git add -A
+git commit -m "$1"
+git push origin master
